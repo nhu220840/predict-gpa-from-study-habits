@@ -33,6 +33,7 @@ class MultiLabelTransformer(BaseEstimator, TransformerMixin):
 
         return np.hstack(transformed_cols)
 
+
 class BoundedRegressor(BaseEstimator, RegressorMixin):
     def __init__(self, regressor, min_val=0, max_val=10):
         self.regressor = regressor
@@ -89,10 +90,10 @@ daily_sleep_duration = ["< 4 hours", "4-6 hours", "6-8 hours", "> 8 hours"]
 weekly_exercise_freq = ["Never", "1-2 times", "3-4 times", "5+ times"]
 social_media_usage = ["Never", "< 15 min/hour", "15-30 min/hour", "> 30 min/hour"]
 
-gender = ["Male", "Female"]
-use_technology = ["Yes", "No"]
-focus = ["Yes", "No"]
-phone_usage = ["Yes", "No"]
+gender = x_train["Gender"].unique()
+use_technology = x_train["Use of technology in studying"].unique()
+focus = x_train["Lack of focus in studying"].unique()
+phone_usage = x_train["Phone usage while studying"].unique()
 
 num_transformer = Pipeline(steps=[
     ("imputer", SimpleImputer(strategy="median")),
@@ -112,7 +113,7 @@ ord_transformer = Pipeline(steps=[
         gender,
         use_technology,
         focus,
-        phone_usage,
+        phone_usage
     ]))
 ])
 
@@ -129,6 +130,7 @@ reg = Pipeline(steps=[
     # ("model", BoundedRegressor(LinearRegression(), min_val=0, max_val=10))
 ])
 result = reg.fit_transform(x_train)
+
 # reg.fit(x_train, y_train)
 #
 # y_predict = reg.predict(x_test)
@@ -142,3 +144,6 @@ result = reg.fit_transform(x_train)
 # print(f"\nEvaluate model:")
 # print(f"Mean Squared Error (MSE): {mse:.4f}")
 # print(f"R² Score: {r2:.4f}")
+
+# tim xem data nao dang bi xu li sai?
+# co the la Dietary Habits
