@@ -49,9 +49,9 @@ class BoundedRegressor(BaseEstimator, RegressorMixin):
         return np.clip(predictions, self.min_val, self.max_val)
 
 # Data loading and initial processing
-data = pd.read_csv('gpa-collections.csv')  # Load the dataset
+data = pd.read_csv('gpa-collections-adjusted.csv')  # Load the dataset
 profile = ProfileReport(data, title="Student Score Report")  # Generate a profile report
-# profile.to_file('report_csv.html')  # Save the report (commented out)
+profile.to_file('report_csv-ad.html')  # Save the report (commented out)
 
 # Define the target variable
 target = "Latest semester GPA"
