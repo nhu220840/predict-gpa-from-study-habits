@@ -6,7 +6,7 @@ This project uses data about students' daily study habits to predict their lates
 ## 📁 Project Structure
 
 ```
-├── model_final.py                 # Main script for training and testing the model
+├── model_final.py                   # Main script for training and testing the model
 ├── gpa-collections-adjusted.csv   # Input dataset
 ├── requirement.txt                # List of required Python packages
 ```
@@ -81,6 +81,37 @@ R2: 0.81
 
 - The dataset must be named exactly `gpa-collections-adjusted.csv`.
 - If you want to generate a detailed profiling report using `ydata-profiling`, you can uncomment the line `profile.to_file(...)` in `model_final.py`.
+
+---
+
+## 📄 How to View the Generated Report (`report_csv-ad.html`)
+
+If you enable report generation by uncommenting the line `profile.to_file('report_csv-ad.html')` in `model_final.py`, the report will be saved in your project directory.
+
+### 🔍 To open the report:
+
+#### 🪟 Windows:
+- Double-click the file `report_csv-ad.html` in File Explorer, or
+- Open it with any browser like Chrome, Firefox, Edge:
+  ```cmd
+  start report_csv-ad.html
+  ```
+
+#### 🍎 macOS:
+- Use Finder to locate and double-click the file, or
+- Open from terminal with:
+  ```bash
+  open report_csv-ad.html
+  ```
+
+#### 🐧 Linux:
+- Use your file manager to open the file, or
+- Run in terminal:
+  ```bash
+  xdg-open report_csv-ad.html
+  ```
+
+Make sure the file is in the current working directory or provide the correct path.
 
 ---
 
