@@ -6,7 +6,7 @@ This project uses data about students' daily study habits to predict their lates
 ## 📁 Project Structure
 
 ```
-├── model_final.py                   # Main script for training and testing the model
+├── model_final.py                 # Main script for training and testing the model
 ├── gpa-collections-adjusted.csv   # Input dataset
 ├── requirement.txt                # List of required Python packages
 ```

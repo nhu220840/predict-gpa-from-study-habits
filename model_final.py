@@ -1,6 +1,7 @@
 # Import necessary libraries
 import pandas as pd
 import numpy as np
+from matplotlib import pyplot as plt
 from ydata_profiling import ProfileReport  # For generating data profile reports
 from sklearn.model_selection import train_test_split  # For splitting data into training and testing sets
 from sklearn.impute import SimpleImputer  # For handling missing values
@@ -176,11 +177,23 @@ for i, j in zip(y_predict, y_test):
     print(f"Predicted value: {i:.2f}. Actual value: {j}")
 
 # Calculate evaluation metrics
+mae = mean_absolute_error(y_test, y_predict)
 mse = mean_squared_error(y_test, y_predict)
 r2 = r2_score(y_test, y_predict)
 
+# Plot predicted vs actual value
+plt.figure(figsize=(8, 6))
+plt.scatter(y_test, y_predict, color='blue', alpha=0.6)
+plt.plot([0, 10], [0, 10], color='red', linestyle='--', linewidth=2)
+plt.xlabel("Actual GPA")
+plt.ylabel("Predicted GPA")
+plt.title("Predicted vs Actual GPA")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
 # Print evaluation metrics
 print(f"\nEvaluate model:")
-print(f"MAE: {mean_absolute_error(y_test, y_predict)}")  # Mean Absolute Error
-print(f"MSE: {mean_squared_error(y_test, y_predict)}")   # Mean Squared Error
-print(f"R2: {r2_score(y_test, y_predict)}")              # R-squared (coefficient of determination)
+print(f"MAE: {mae}")   # Mean Absolute Error
+print(f"MSE: {mse}")   # Mean Squared Error
+print(f"R2: {r2}")     # R-squared (coefficient of determination)
