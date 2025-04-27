@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
-from ydata_profiling import ProfileReport  # For generating data profile reports
+# from ydata_profiling import ProfileReport  # For generating data profile reports
 from sklearn.model_selection import train_test_split  # For splitting data into training and testing sets
 from sklearn.impute import SimpleImputer  # For handling missing values
 from sklearn.preprocessing import StandardScaler, OrdinalEncoder, MultiLabelBinarizer, OneHotEncoder  # For data preprocessing
@@ -31,6 +31,9 @@ class MultiLabelTransformer(BaseEstimator, TransformerMixin):
         X_series = pd.Series(X.squeeze())
         X_series = X_series.apply(lambda x: x.split(', ') if isinstance(x, str) else x)
         return self.mlb.transform(X_series)
+    
+    def get_feature_names_out(self, input_features=None):
+        return self.mlb.classes_
 
 # Custom regressor that bounds predictions within a specified range
 class BoundedRegressor(BaseEstimator, RegressorMixin):
@@ -51,11 +54,11 @@ class BoundedRegressor(BaseEstimator, RegressorMixin):
 
 # Data loading and initial processing
 data = pd.read_csv('gpa-collections-adjusted.csv')  # Load the dataset
-profile = ProfileReport(data, title="Student Score Report")  # Generate a profile report
+# profile = ProfileReport(data, title="Student Score Report")  # Generate a profile report
 # profile.to_file('report_csv-ad.html')  # Save the report (commented out)
 
 # Define the target variable
-target = "Latest semester GPA"
+target = "gpa_semester"
 data.columns = data.columns.str.strip()  # Remove whitespace from column names
 
 # Split data into features and target
@@ -67,31 +70,31 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_
 
 # Define feature groups based on their data types and characteristics
 # Numerical features
-num_features = ["Latest academic year GPA"]
+num_features = ["gpa_year"]
 
 # Ordinal features (categorical with inherent order)
 ord_features = [
-    "Current education level",
-    "Daily study duration",
-    "Study break frequency",
-    "Exam preparation approach",
-    "Daily sleep duration",
-    "Weekly exercise frequency",
-    "Social media usage during study time",
-    "Gender",
-    "Use of technology in studying",
-    "Lack of focus in studying",
-    "Phone usage while studying"
+    "edu_level",
+    "study_time",
+    "break_freq",
+    "prep_method",
+    "sleep_time",
+    "exercise",
+    "sm_use",
+    "gender",
+    "tech_use",
+    "focus",
+    "phone_use"
 ]
 
 # Multi-label nominal features (categorical with multiple possible values per entry)
-multi_nom_features = ["Preferred study method"]
+multi_nom_features = ["study_method"]
 
 # Single-label nominal features (categorical without inherent order)
 single_nom_features = [
-    "Most effective study time",
-    "Dietary Habits",
-    "Preferred study environment"
+    "best_time",
+    "diet",
+    "env"
 ]
 
 # Define the categories for ordinal features to maintain their order
@@ -172,14 +175,25 @@ reg.fit(x_train, y_train)
 # Make predictions on the test set
 y_predict = reg.predict(x_test)
 
+# Get feature and coefficient
+feature_names = reg.named_steps['preprocessor'].get_feature_names_out()
+coefficients = reg.named_steps['model'].regressor.coef_
+intercept = reg.named_steps['model'].regressor.intercept_
+
+# Create coefficient DataFrame
+coef_df = pd.DataFrame({
+    'Feature': feature_names,
+    'Coefficient': coefficients
+})
+
+# Print coefficients and intercept
+print("Feature Coefficients:")
+print(coef_df.sort_values(by="Coefficient", ascending=False))
+print()
+
 # Print predicted vs actual values
 for i, j in zip(y_predict, y_test):
     print(f"Predicted value: {i:.2f}. Actual value: {j}")
-
-# Calculate evaluation metrics
-mae = mean_absolute_error(y_test, y_predict)
-mse = mean_squared_error(y_test, y_predict)
-r2 = r2_score(y_test, y_predict)
 
 # Plot predicted vs actual value
 plt.figure(figsize=(8, 6))
@@ -191,6 +205,11 @@ plt.title("Predicted vs Actual GPA")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+# Calculate evaluation metrics
+mae = mean_absolute_error(y_test, y_predict)
+mse = mean_squared_error(y_test, y_predict)
+r2 = r2_score(y_test, y_predict)
 
 # Print evaluation metrics
 print(f"\nEvaluate model:")
