@@ -1,0 +1,158 @@
+Timestamp,gender,edu_level,study_time,study_method,tech_use,best_time,break_freq,prep_method,sleep_time,exercise,diet,focus,phone_use,env,sm_use,gpa_year,gpa_semester
+4/3/2025 21:44:03,Female,University,2-4 hours,"Self-study, Tutoring, Online learning",Yes,Evening,Almost no breaks,1-2 weeks before,> 8 hours,Never,No specific diet,No,Yes,Soft background music,< 15 min/hour,9.5,9.1
+4/3/2025 21:56:41,Male,University,2-4 hours,"Self-study, Tutoring, Online learning",Yes,Evening,5 min/hour,> 2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Silent,15-30 min/hour,5.25,8.0
+4/3/2025 22:04:47,Male,Graduated,> 4 hours,"Self-study, Tutoring, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,7.5,10.0
+4/3/2025 22:04:58,Female,High school,1-2 hours,"Self-study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,> 8 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.05,6.0
+4/3/2025 22:07:50,Male,University,2-4 hours,"Group study, Online learning",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,Never,No specific diet,Yes,No,Soft background music,15-30 min/hour,7.475,4.25
+4/3/2025 22:08:02,Male,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,> 8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.1,7.0
+4/3/2025 22:10:51,Female,University,> 4 hours,"Self-study, Group study, Tutoring",Yes,Late night,5 min/hour,1-2 weeks before,4-6 hours,Never,Balanced diet,No,Yes,Silent,< 15 min/hour,8.31,8.58
+4/3/2025 22:16:09,Male,University,2-4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Morning,Almost no breaks,> 2 weeks before,4-6 hours,Never,No specific diet,Yes,No,Soft background music,< 15 min/hour,7.5,8.0
+4/3/2025 22:18:33,Female,University,2-4 hours,Self-study,Yes,Evening,Almost no breaks,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,Yes,Silent,Never,8.5,8.0
+4/3/2025 22:18:34,Male,University,2-4 hours,Self-study,Yes,Evening,15+ min/hour,> 2 weeks before,6-8 hours,5+ times,No specific diet,Yes,Yes,Silent,< 15 min/hour,9.525,9.175
+4/3/2025 22:20:43,Female,University,> 4 hours,"Self-study, Group study",Yes,Afternoon,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,8.3,8.55
+4/3/2025 22:20:57,Male,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,8.03,8.14
+4/3/2025 22:22:36,Male,University,2-4 hours,"Self-study, Online learning",Yes,Afternoon,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.0,8.0
+4/3/2025 22:30:17,Male,University,1-2 hours,Self-study,Yes,Evening,5 min/hour,1 day before,4-6 hours,1-2 times,Balanced diet,No,Yes,Silent,Never,2.2,2.2
+4/3/2025 22:32:48,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,No specific diet,Yes,No,Soft background music,< 15 min/hour,7.3,7.1
+4/3/2025 22:34:38,Female,Middle school,2-4 hours,Online learning,Yes,Morning,5 min/hour,1-2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,< 15 min/hour,7.8,7.5
+4/3/2025 22:36:34,Male,University,2-4 hours,Self-study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Silent,> 30 min/hour,8.0,8.9
+4/3/2025 22:38:35,Female,High school,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1 day before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,15-30 min/hour,7.0,7.0
+4/3/2025 22:39:05,Male,University,2-4 hours,Self-study,Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,7.15,7.4
+4/3/2025 22:41:19,Female,University,> 4 hours,"Self-study, Group study, Tutoring",Yes,Morning,10-15 min/hour,1-2 weeks before,4-6 hours,5+ times,Balanced diet,No,Yes,Silent,< 15 min/hour,8.0,7.0
+4/3/2025 22:41:56,Female,High school,> 4 hours,Tutoring,Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,7.6,7.2
+4/3/2025 22:42:58,Male,Middle school,2-4 hours,Self-study,Yes,Late night,5 min/hour,1 day before,6-8 hours,1-2 times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Soft background music,< 15 min/hour,9.0,8.0
+4/3/2025 22:45:32,Female,University,2-4 hours,"Self-study, Group study, Tutoring",Yes,Morning,10-15 min/hour,1-2 weeks before,> 8 hours,3-4 times,Balanced diet,No,Yes,Soft background music,15-30 min/hour,7.8,7.0
+4/3/2025 22:52:52,Male,University,2-4 hours,"Group study, Tutoring, Online learning",Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,Yes,Yes,Silent,> 30 min/hour,6.0,5.0
+4/3/2025 22:54:23,Male,University,2-4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Late night,Almost no breaks,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,Yes,Soft background music,< 15 min/hour,8.0,8.0
+4/3/2025 22:55:36,Female,University,> 4 hours,"Self-study, Tutoring, Online learning",Yes,Evening,10-15 min/hour,> 2 weeks before,6-8 hours,5+ times,Balanced diet,Yes,Yes,Silent,< 15 min/hour,8.7,9.3
+4/3/2025 22:57:34,Male,University,1-2 hours,"Self-study, Group study, Online learning",Yes,Late night,Almost no breaks,1-2 weeks before,4-6 hours,1-2 times,No specific diet,No,No,"Noisy (cafe, crowded library, etc.)",Never,8.5,7.9
+4/3/2025 22:57:54,Female,High school,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,< 15 min/hour,7.3,6.8
+4/3/2025 22:59:57,Male,University,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,6-8 hours,Never,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,6.1,6.1
+4/3/2025 23:02:02,Female,Middle school,> 4 hours,"Self-study, Group study",Yes,Evening,15+ min/hour,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,7.8,8.0
+4/3/2025 23:05:29,Female,University,2-4 hours,"Self-study, Online learning",Yes,Late night,5 min/hour,1-2 weeks before,6-8 hours,Never,Balanced diet,Yes,Yes,"Noisy (cafe, crowded library, etc.)",> 30 min/hour,3.5,3.5
+4/3/2025 23:10:42,Male,University,> 4 hours,Self-study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.0,8.0
+4/3/2025 23:11:50,Female,University,2-4 hours,Tutoring,Yes,Afternoon,10-15 min/hour,1-2 weeks before,6-8 hours,Never,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.9,9.0
+4/3/2025 23:12:35,Female,University,2-4 hours,"Self-study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,3.2,3.26
+4/3/2025 23:15:27,Male,University,2-4 hours,"Self-study, Online learning",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,Yes,Yes,Silent,< 15 min/hour,8.72,8.34
+4/3/2025 23:15:41,Male,University,2-4 hours,"Self-study, Tutoring",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,Never,No specific diet,No,Yes,Silent,< 15 min/hour,5.0,6.0
+4/3/2025 23:15:43,Female,University,2-4 hours,"Group study, Online learning",Yes,Late night,5 min/hour,> 2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,< 15 min/hour,3.0,3.02
+4/3/2025 23:17:46,Female,University,2-4 hours,"Self-study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,No,Yes,Soft background music,< 15 min/hour,7.5,7.2
+4/3/2025 23:19:49,Male,University,1-2 hours,"Self-study, Group study",Yes,Morning,5 min/hour,1-2 weeks before,> 8 hours,1-2 times,No specific diet,Yes,Yes,Silent,15-30 min/hour,8.5,9.0
+4/3/2025 23:21:03,Male,High school,2-4 hours,Tutoring,Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,5+ times,Balanced diet,Yes,Yes,Soft background music,15-30 min/hour,7.4,7.6
+4/3/2025 23:22:12,Male,University,2-4 hours,"Self-study, Group study",Yes,Evening,Almost no breaks,1-2 weeks before,4-6 hours,Never,No specific diet,No,Yes,Silent,< 15 min/hour,8.5,8.7
+4/3/2025 23:22:29,Male,University,2-4 hours,Self-study,Yes,Afternoon,15+ min/hour,1-2 weeks before,4-6 hours,3-4 times,No specific diet,Yes,No,Soft background music,< 15 min/hour,6.5,6.0
+4/3/2025 23:23:16,Female,High school,2-4 hours,Self-study,Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,5+ times,No specific diet,Yes,Yes,Silent,15-30 min/hour,9.0,8.0
+4/3/2025 23:29:32,Male,University,1-2 hours,"Self-study, Online learning",Yes,Evening,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,7.5,8.0
+4/3/2025 23:34:29,Male,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Late night,15+ min/hour,1 day before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,> 30 min/hour,7.35,7.35
+4/3/2025 23:35:25,Male,University,1-2 hours,"Self-study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,Yes,Yes,Soft background music,15-30 min/hour,8.0,8.0
+4/3/2025 23:41:49,Male,University,> 4 hours,"Self-study, Online learning",Yes,Evening,10-15 min/hour,> 2 weeks before,6-8 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,8.46,9.35
+4/3/2025 23:47:03,Female,University,1-2 hours,"Self-study, Tutoring",Yes,Evening,10-15 min/hour,1 day before,> 8 hours,3-4 times,Balanced diet,Yes,Yes,Silent,< 15 min/hour,7.0,7.0
+4/3/2025 23:51:58,Male,High school,2-4 hours,Tutoring,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,No,Soft background music,15-30 min/hour,8.0,8.0
+4/4/2025 0:08:14,Male,University,2-4 hours,"Self-study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,No,Silent,> 30 min/hour,6.0,7.0
+4/4/2025 0:12:02,Male,University,2-4 hours,Self-study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Silent,< 15 min/hour,6.0,6.0
+4/4/2025 0:42:41,Female,University,> 4 hours,Self-study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Silent,15-30 min/hour,7.0,6.0
+4/4/2025 1:29:37,Male,University,2-4 hours,Self-study,Yes,Late night,Almost no breaks,1-2 weeks before,4-6 hours,Never,No specific diet,No,No,Silent,Never,8.25,8.4
+4/4/2025 3:31:23,Male,University,1-2 hours,Self-study,Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,15-30 min/hour,8.0,8.5
+4/4/2025 8:32:17,Male,University,1-2 hours,"Self-study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,6-8 hours,3-4 times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,> 30 min/hour,5.3,5.3
+4/4/2025 8:45:28,Male,University,2-4 hours,"Self-study, Online learning",Yes,Evening,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,8.0,7.5
+4/4/2025 9:46:49,Male,University,2-4 hours,Self-study,No,Late night,5 min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,6.5,6.5
+4/4/2025 9:46:53,Female,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,7.94,7.0
+4/4/2025 9:59:37,Male,University,> 4 hours,"Self-study, Tutoring",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,No,Yes,Silent,< 15 min/hour,8.5,8.25
+4/4/2025 10:05:58,Male,University,2-4 hours,"Tutoring, Online learning",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Silent,< 15 min/hour,5.5,6.5
+4/4/2025 10:07:43,Male,University,1-2 hours,"Group study, Tutoring",Yes,Morning,15+ min/hour,1-2 weeks before,4-6 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,> 30 min/hour,8.4,7.5
+4/4/2025 10:18:00,Male,University,2-4 hours,"Self-study, Tutoring",Yes,Late night,Almost no breaks,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,3.21,2.5
+4/4/2025 10:20:29,Male,University,1-2 hours,Self-study,Yes,Evening,5 min/hour,1-2 weeks before,6-8 hours,5+ times,No specific diet,Yes,Yes,Silent,Never,8.0,8.0
+4/4/2025 10:23:03,Male,University,2-4 hours,Online learning,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,< 15 min/hour,8.5,8.0
+4/4/2025 10:27:07,Male,University,2-4 hours,"Self-study, Group study, Tutoring",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.5,8.5
+4/4/2025 10:28:45,Female,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,< 15 min/hour,5.0,6.0
+4/4/2025 10:29:47,Female,University,> 4 hours,Self-study,Yes,Late night,15+ min/hour,1-2 weeks before,6-8 hours,Never,No specific diet,Yes,Yes,Soft background music,> 30 min/hour,7.0,7.0
+4/4/2025 10:30:17,Female,University,2-4 hours,Self-study,Yes,Late night,5 min/hour,1-2 weeks before,> 8 hours,1-2 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,3.3,3.3
+4/4/2025 10:30:28,Female,University,> 4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Afternoon,15+ min/hour,> 2 weeks before,4-6 hours,Never,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,Never,9.0,9.0
+4/4/2025 10:32:19,Male,Middle school,> 4 hours,"Self-study, Group study, Tutoring, Online learning",No,Late night,15+ min/hour,> 2 weeks before,4-6 hours,Never,"Special diet (Vegan, Keto, etc.)",Yes,No,Soft background music,Never,6.2,6.2
+4/4/2025 10:34:28,Male,University,2-4 hours,Group study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,Yes,Yes,Silent,15-30 min/hour,8.0,8.5
+4/4/2025 10:34:38,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,> 8 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.3,8.3
+4/4/2025 10:34:49,Male,University,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,< 15 min/hour,9.0,8.5
+4/4/2025 10:39:18,Female,University,2-4 hours,"Self-study, Group study, Tutoring",Yes,Late night,5 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,"Noisy (cafe, crowded library, etc.)",15-30 min/hour,8.0,7.0
+4/4/2025 10:40:57,Male,University,> 4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Morning,Almost no breaks,> 2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,> 30 min/hour,8.0,8.0
+4/4/2025 10:44:14,Male,University,2-4 hours,"Self-study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,No,No,Soft background music,Never,6.5,6.5
+4/4/2025 10:48:35,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,6.7,5.5
+4/4/2025 10:51:20,Male,University,> 4 hours,"Self-study, Tutoring, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,9.6,9.6
+4/4/2025 10:56:01,Male,University,> 4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Silent,> 30 min/hour,7.6,8.325
+4/4/2025 11:02:49,Male,University,1-2 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Silent,> 30 min/hour,7.0,7.0
+4/4/2025 12:21:38,Male,University,2-4 hours,"Self-study, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Soft background music,15-30 min/hour,9.0,8.0
+4/4/2025 12:21:46,Male,University,2-4 hours,Online learning,Yes,Evening,Almost no breaks,1-2 weeks before,4-6 hours,1-2 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,3.11,3.11
+4/4/2025 12:22:42,Female,University,> 4 hours,"Self-study, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,7.0,7.2
+4/4/2025 12:26:20,Male,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,No,Yes,Silent,< 15 min/hour,3.0,2.85
+4/4/2025 12:28:28,Male,University,1-2 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,6-8 hours,Never,No specific diet,No,Yes,"Noisy (cafe, crowded library, etc.)",< 15 min/hour,7.0,7.0
+4/4/2025 12:35:45,Male,University,2-4 hours,"Self-study, Tutoring",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,No,Silent,< 15 min/hour,7.0,7.0
+4/4/2025 13:18:34,Male,University,1-2 hours,Group study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,No,Soft background music,15-30 min/hour,7.38,7.34
+4/4/2025 14:25:01,Male,University,2-4 hours,Self-study,Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,No,No,Soft background music,< 15 min/hour,8.5,8.5
+4/4/2025 20:01:47,Male,University,1-2 hours,Self-study,Yes,Late night,15+ min/hour,1 day before,> 8 hours,3-4 times,Balanced diet,Yes,Yes,Silent,> 30 min/hour,4.4,5.1
+4/5/2025 21:25:48,Male,University,1-2 hours,"Self-study, Online learning",Yes,Late night,10-15 min/hour,> 2 weeks before,6-8 hours,5+ times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,< 15 min/hour,6.0,5.5
+4/5/2025 21:53:10,Male,University,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,> 8 hours,1-2 times,Balanced diet,Yes,Yes,Soft background music,15-30 min/hour,4.2,3.68
+4/6/2025 21:47:48,Female,University,2-4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,Yes,No,Soft background music,< 15 min/hour,7.0,6.0
+4/6/2025 23:04:45,Male,University,1-2 hours,Group study,Yes,Morning,10-15 min/hour,> 2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,Never,8.1,9.2
+4/7/2025 21:55:13,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,15-30 min/hour,7.5,7.0
+4/7/2025 22:23:31,Male,University,2-4 hours,"Self-study, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,No specific diet,No,Yes,Silent,< 15 min/hour,8.0,7.0
+4/9/2025 20:39:49,Male,University,> 4 hours,"Self-study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,6-8 hours,Never,No specific diet,Yes,Yes,Silent,> 30 min/hour,7.0,5.0
+4/9/2025 20:46:12,Male,University,2-4 hours,"Self-study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,6.0,5.0
+4/9/2025 20:59:12,Female,High school,> 4 hours,"Self-study, Tutoring",Yes,Morning,5 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,No,Silent,Never,9.7,9.3
+4/9/2025 22:23:02,Female,University,1-2 hours,Online learning,Yes,Afternoon,15+ min/hour,1 day before,4-6 hours,5+ times,Balanced diet,Yes,Yes,Silent,> 30 min/hour,4.6,4.6
+4/9/2025 22:26:32,Male,University,2-4 hours,Self-study,Yes,Afternoon,15+ min/hour,> 2 weeks before,> 8 hours,1-2 times,Balanced diet,Yes,No,Soft background music,> 30 min/hour,7.3,7.3
+4/9/2025 22:28:48,Female,University,2-4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,No,Yes,"Noisy (cafe, crowded library, etc.)",< 15 min/hour,8.7,6.0
+4/9/2025 22:30:12,Female,High school,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,No,Yes,Soft background music,< 15 min/hour,8.0,9.0
+4/9/2025 22:33:38,Male,University,2-4 hours,Online learning,Yes,Late night,Almost no breaks,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,7.1,7.5
+4/9/2025 22:37:08,Male,University,> 4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,5+ times,No specific diet,No,Yes,Silent,15-30 min/hour,8.53,8.53
+4/9/2025 22:43:27,Male,University,2-4 hours,Self-study,Yes,Evening,5 min/hour,> 2 weeks before,4-6 hours,1-2 times,No specific diet,No,No,Soft background music,Never,7.8,7.8
+4/9/2025 22:53:25,Male,University,> 4 hours,"Self-study, Tutoring",Yes,Late night,5 min/hour,> 2 weeks before,4-6 hours,Never,No specific diet,Yes,No,Silent,Never,9.0,7.75
+4/9/2025 22:54:56,Male,University,> 4 hours,"Self-study, Tutoring",Yes,Late night,5 min/hour,> 2 weeks before,4-6 hours,Never,No specific diet,No,No,Silent,Never,9.2,7.75
+4/9/2025 23:00:39,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,No,Yes,Soft background music,< 15 min/hour,8.4,8.5
+4/9/2025 23:17:32,Male,University,2-4 hours,Self-study,Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,5+ times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.0,8.0
+4/10/2025 5:55:23,Male,High school,2-4 hours,"Self-study, Group study, Tutoring",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,No,Soft background music,< 15 min/hour,9.2,9.0
+4/10/2025 8:59:13,Male,University,> 4 hours,Self-study,Yes,Late night,15+ min/hour,> 2 weeks before,4-6 hours,5+ times,No specific diet,No,Yes,Silent,Never,7.81,7.81
+4/10/2025 11:35:37,Male,University,1-2 hours,Tutoring,Yes,Evening,Almost no breaks,1 day before,6-8 hours,Never,No specific diet,Yes,No,"Noisy (cafe, crowded library, etc.)",Never,8.34,8.32
+4/10/2025 11:46:32,Male,University,> 4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Late night,10-15 min/hour,> 2 weeks before,6-8 hours,3-4 times,No specific diet,No,No,Silent,< 15 min/hour,8.5,9.7
+4/10/2025 12:47:48,Male,University,2-4 hours,Self-study,Yes,Afternoon,10-15 min/hour,1-2 weeks before,> 8 hours,Never,No specific diet,Yes,No,Soft background music,Never,7.5,7.5
+4/10/2025 20:44:17,Male,High school,2-4 hours,"Self-study, Online learning",Yes,Evening,15+ min/hour,1-2 weeks before,> 8 hours,3-4 times,Balanced diet,Yes,Yes,Silent,> 30 min/hour,9.2,9.3
+4/10/2025 22:16:20,Female,University,2-4 hours,Self-study,Yes,Late night,Almost no breaks,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,No,Silent,15-30 min/hour,9.5,7.6
+4/10/2025 22:36:01,Male,University,> 4 hours,"Self-study, Online learning",Yes,Evening,5 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.68,8.5
+4/11/2025 2:16:37,Female,University,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,15-30 min/hour,7.99,7.99
+4/11/2025 7:06:55,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,4-6 hours,5+ times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.0,7.24
+4/11/2025 7:11:58,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,Yes,Yes,Silent,> 30 min/hour,3.5,3.4
+4/11/2025 7:17:36,Female,High school,2-4 hours,"Self-study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,> 8 hours,1-2 times,No specific diet,Yes,Yes,Silent,> 30 min/hour,8.9,8.8
+4/11/2025 7:24:44,Female,University,2-4 hours,Group study,Yes,Evening,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,Balanced diet,No,No,Soft background music,< 15 min/hour,9.2,9.2
+4/11/2025 7:33:44,Male,University,> 4 hours,"Self-study, Online learning",Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Silent,15-30 min/hour,7.84,8.56
+4/11/2025 8:18:29,Male,University,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,6-8 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,8.2,8.0
+4/11/2025 9:06:29,Female,University,2-4 hours,Online learning,Yes,Afternoon,15+ min/hour,1-2 weeks before,> 8 hours,1-2 times,"Special diet (Vegan, Keto, etc.)",No,Yes,Silent,15-30 min/hour,8.9,8.5
+4/11/2025 13:42:59,Female,University,> 4 hours,Online learning,Yes,Afternoon,Almost no breaks,1-2 weeks before,4-6 hours,1-2 times,No specific diet,No,No,Soft background music,Never,9.8,9.5
+4/11/2025 13:43:03,Female,University,> 4 hours,Online learning,Yes,Morning,Almost no breaks,1 day before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,Never,7.63,7.8
+4/11/2025 13:44:34,Female,University,> 4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Morning,15+ min/hour,> 2 weeks before,6-8 hours,5+ times,"Special diet (Vegan, Keto, etc.)",No,Yes,Soft background music,> 30 min/hour,9.0,9.9
+4/11/2025 13:51:24,Female,University,1-2 hours,Self-study,Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,"Special diet (Vegan, Keto, etc.)",Yes,Yes,Silent,< 15 min/hour,5.0,6.0
+4/11/2025 13:58:44,Male,University,2-4 hours,Group study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,Yes,Silent,> 30 min/hour,2.93,2.93
+4/11/2025 16:14:37,Male,University,2-4 hours,"Self-study, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,No,No,Silent,< 15 min/hour,8.5,8.5
+4/11/2025 16:18:22,Male,University,1-2 hours,"Self-study, Group study",Yes,Late night,Almost no breaks,1 day before,4-6 hours,Never,No specific diet,Yes,Yes,Silent,> 30 min/hour,7.1,3.01
+4/11/2025 16:40:55,Male,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,Never,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,2.98,2.98
+4/11/2025 16:46:01,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,Never,Balanced diet,No,Yes,Silent,< 15 min/hour,7.0,7.0
+4/11/2025 16:48:59,Male,University,2-4 hours,"Self-study, Online learning",Yes,Evening,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,8.0,8.0
+4/11/2025 17:47:40,Male,High school,2-4 hours,Self-study,Yes,Morning,5 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,Yes,Silent,Never,8.68,5.0
+4/11/2025 17:48:34,Male,Middle school,1-2 hours,Tutoring,Yes,Evening,5 min/hour,1-2 weeks before,6-8 hours,3-4 times,No specific diet,Yes,Yes,Silent,< 15 min/hour,6.0,8.0
+4/11/2025 18:03:43,Male,University,2-4 hours,Self-study,Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,5+ times,Balanced diet,No,Yes,Soft background music,< 15 min/hour,9.0,8.3
+4/11/2025 21:47:31,Male,University,2-4 hours,"Self-study, Tutoring, Online learning",Yes,Morning,15+ min/hour,1-2 weeks before,6-8 hours,5+ times,Balanced diet,Yes,Yes,"Noisy (cafe, crowded library, etc.)",15-30 min/hour,7.3,7.3
+4/11/2025 22:39:59,Male,University,2-4 hours,"Self-study, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,No,Yes,Silent,< 15 min/hour,7.84,7.84
+4/11/2025 22:49:00,Male,University,2-4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,No specific diet,No,Yes,Soft background music,15-30 min/hour,7.5,7.5
+4/12/2025 0:14:55,Male,University,2-4 hours,Self-study,Yes,Evening,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,15-30 min/hour,7.0,7.0
+4/12/2025 2:57:14,Male,University,2-4 hours,Self-study,Yes,Late night,5 min/hour,1-2 weeks before,> 8 hours,1-2 times,"Special diet (Vegan, Keto, etc.)",No,No,Silent,Never,7.44,7.44
+4/12/2025 10:06:36,Male,University,1-2 hours,Self-study,Yes,Evening,15+ min/hour,1-2 weeks before,4-6 hours,1-2 times,Balanced diet,Yes,No,Silent,< 15 min/hour,7.28,7.28
+4/12/2025 10:39:04,Male,University,2-4 hours,"Self-study, Group study, Tutoring, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,2.95,2.95
+4/12/2025 13:19:24,Male,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Late night,10-15 min/hour,1-2 weeks before,4-6 hours,5+ times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,7.8,7.8
+4/12/2025 16:34:55,Male,University,2-4 hours,Group study,Yes,Evening,Almost no breaks,1-2 weeks before,4-6 hours,1-2 times,Balanced diet,Yes,Yes,"Noisy (cafe, crowded library, etc.)",< 15 min/hour,8.5,8.5
+4/12/2025 18:34:43,Female,University,2-4 hours,"Self-study, Group study, Online learning",Yes,Evening,15+ min/hour,> 2 weeks before,6-8 hours,5+ times,No specific diet,No,No,Soft background music,15-30 min/hour,5.6,5.6
+4/12/2025 20:42:25,Female,University,> 4 hours,Self-study,Yes,Evening,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,No specific diet,Yes,Yes,Soft background music,< 15 min/hour,9.0,9.0
+4/12/2025 21:16:53,Male,University,2-4 hours,Tutoring,Yes,Afternoon,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,Yes,No,Soft background music,< 15 min/hour,7.3,7.3
+4/13/2025 8:48:21,Male,University,> 4 hours,Self-study,Yes,Morning,10-15 min/hour,1-2 weeks before,4-6 hours,1-2 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,8.0,9.0
+4/13/2025 11:14:53,Male,University,2-4 hours,Self-study,Yes,Morning,15+ min/hour,1-2 weeks before,6-8 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,> 30 min/hour,8.0,8.0
+4/13/2025 12:02:09,Male,University,> 4 hours,"Self-study, Tutoring, Online learning",Yes,Morning,10-15 min/hour,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,5.8,5.8
+4/13/2025 12:48:12,Male,University,1-2 hours,"Group study, Online learning",Yes,Late night,15+ min/hour,1-2 weeks before,4-6 hours,3-4 times,Balanced diet,Yes,Yes,Soft background music,< 15 min/hour,3.0,3.0
+4/13/2025 13:05:34,Male,University,> 4 hours,"Self-study, Group study",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,No specific diet,No,Yes,Soft background music,< 15 min/hour,8.87,8.87
+4/13/2025 13:08:56,Male,University,2-4 hours,"Self-study, Online learning",Yes,Evening,10-15 min/hour,1-2 weeks before,6-8 hours,1-2 times,Balanced diet,No,No,Soft background music,Never,7.28,7.28
+4/13/2025 13:45:54,Male,University,> 4 hours,Self-study,Yes,Evening,10-15 min/hour,1 day before,6-8 hours,1-2 times,No specific diet,Yes,No,Soft background music,Never,8.0,8.0
