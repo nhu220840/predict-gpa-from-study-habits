@@ -5,7 +5,8 @@ from matplotlib import pyplot as plt
 # from ydata_profiling import ProfileReport  # For generating data profile reports
 from sklearn.model_selection import train_test_split  # For splitting data into training and testing sets
 from sklearn.impute import SimpleImputer  # For handling missing values
-from sklearn.preprocessing import StandardScaler, OrdinalEncoder, MultiLabelBinarizer, OneHotEncoder  # For data preprocessing
+from sklearn.preprocessing import StandardScaler, OrdinalEncoder, MultiLabelBinarizer, \
+    OneHotEncoder  # For data preprocessing
 from sklearn.compose import ColumnTransformer  # For applying different transformations to different columns
 from sklearn.ensemble import RandomForestRegressor  # Machine learning algorithm
 from sklearn.pipeline import Pipeline  # For creating a processing pipeline
@@ -31,9 +32,10 @@ class MultiLabelTransformer(BaseEstimator, TransformerMixin):
         X_series = pd.Series(X.squeeze())
         X_series = X_series.apply(lambda x: x.split(', ') if isinstance(x, str) else x)
         return self.mlb.transform(X_series)
-    
+
     def get_feature_names_out(self, input_features=None):
         return self.mlb.classes_
+
 
 # Custom regressor that bounds predictions within a specified range
 class BoundedRegressor(BaseEstimator, RegressorMixin):
@@ -51,6 +53,7 @@ class BoundedRegressor(BaseEstimator, RegressorMixin):
         # Make predictions and clip them to the specified range
         predictions = self.regressor.predict(X)
         return np.clip(predictions, self.min_val, self.max_val)
+
 
 # Data loading and initial processing
 data = pd.read_csv('gpa-collections-adjusted.csv')  # Load the dataset
@@ -166,7 +169,8 @@ preprocessor = ColumnTransformer(transformers=[
 # Create the full pipeline: preprocessing followed by the bounded linear regression model
 reg = Pipeline(steps=[
     ("preprocessor", preprocessor),  # Apply feature preprocessing
-    ("model", BoundedRegressor(LinearRegression(), min_val=0, max_val=10))  # Apply bounded linear regression (GPA between 0-10)
+    ("model", BoundedRegressor(LinearRegression(), min_val=0, max_val=10))
+    # Apply bounded linear regression (GPA between 0-10)
 ])
 
 # Train the model
@@ -213,6 +217,6 @@ r2 = r2_score(y_test, y_predict)
 
 # Print evaluation metrics
 print(f"\nEvaluate model:")
-print(f"MAE: {mae}")   # Mean Absolute Error
-print(f"MSE: {mse}")   # Mean Squared Error
-print(f"R2: {r2}")     # R-squared (coefficient of determination)
+print(f"MAE: {mae}")  # Mean Absolute Error
+print(f"MSE: {mse}")  # Mean Squared Error
+print(f"R2: {r2}")  # R-squared (coefficient of determination)
