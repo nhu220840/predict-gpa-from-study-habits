@@ -5,8 +5,7 @@ from matplotlib import pyplot as plt
 # from ydata_profiling import ProfileReport  # For generating data profile reports
 from sklearn.model_selection import train_test_split  # For splitting data into training and testing sets
 from sklearn.impute import SimpleImputer  # For handling missing values
-from sklearn.preprocessing import StandardScaler, OrdinalEncoder, MultiLabelBinarizer, \
-    OneHotEncoder  # For data preprocessing
+from sklearn.preprocessing import StandardScaler, OrdinalEncoder, MultiLabelBinarizer, OneHotEncoder  # For data preprocessing
 from sklearn.compose import ColumnTransformer  # For applying different transformations to different columns
 from sklearn.ensemble import RandomForestRegressor  # Machine learning algorithm
 from sklearn.pipeline import Pipeline  # For creating a processing pipeline
