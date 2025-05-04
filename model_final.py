@@ -195,17 +195,6 @@ print()
 for i, j in zip(y_predict, y_test):
     print(f"Predicted value: {i:.2f}. Actual value: {j}")
 
-# Plot predicted vs actual value
-plt.figure(figsize=(8, 6))
-plt.scatter(y_test, y_predict, color='blue', alpha=0.6)
-plt.plot([0, 10], [0, 10], color='red', linestyle='--', linewidth=2)
-plt.xlabel("Actual GPA")
-plt.ylabel("Predicted GPA")
-plt.title("Predicted vs Actual GPA")
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-
 # Calculate evaluation metrics
 mae = mean_absolute_error(y_test, y_predict)
 mse = mean_squared_error(y_test, y_predict)
@@ -216,3 +205,14 @@ print(f"\nEvaluate model:")
 print(f"MAE: {mae}")   # Mean Absolute Error
 print(f"MSE: {mse}")   # Mean Squared Error
 print(f"R2: {r2}")     # R-squared (coefficient of determination)
+
+# Plot predicted vs actual value
+plt.figure(figsize=(8, 6))
+plt.scatter(y_test, y_predict, color='blue', alpha=0.6)
+plt.plot([0, 10], [0, 10], color='red', linestyle='--', linewidth=2)
+plt.xlabel("Actual GPA")
+plt.ylabel("Predicted GPA")
+plt.title("Predicted vs Actual GPA")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
