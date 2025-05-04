@@ -31,9 +31,10 @@ class MultiLabelTransformer(BaseEstimator, TransformerMixin):
         X_series = pd.Series(X.squeeze())
         X_series = X_series.apply(lambda x: x.split(', ') if isinstance(x, str) else x)
         return self.mlb.transform(X_series)
-    
+
     def get_feature_names_out(self, input_features=None):
         return self.mlb.classes_
+
 
 # Custom regressor that bounds predictions within a specified range
 class BoundedRegressor(BaseEstimator, RegressorMixin):
@@ -51,6 +52,7 @@ class BoundedRegressor(BaseEstimator, RegressorMixin):
         # Make predictions and clip them to the specified range
         predictions = self.regressor.predict(X)
         return np.clip(predictions, self.min_val, self.max_val)
+
 
 # Data loading and initial processing
 data = pd.read_csv('gpa-collections-adjusted.csv')  # Load the dataset
@@ -166,7 +168,8 @@ preprocessor = ColumnTransformer(transformers=[
 # Create the full pipeline: preprocessing followed by the bounded linear regression model
 reg = Pipeline(steps=[
     ("preprocessor", preprocessor),  # Apply feature preprocessing
-    ("model", BoundedRegressor(LinearRegression(), min_val=0, max_val=10))  # Apply bounded linear regression (GPA between 0-10)
+    ("model", BoundedRegressor(LinearRegression(), min_val=0, max_val=10))
+    # Apply bounded linear regression (GPA between 0-10)
 ])
 
 # Train the model
