@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GPA Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Student GPA Prediction</h2>
+        <form action="{{ url_for('predict') }}" method="post">
+
+            <div class="form-group">
+                <label for="gpa_year">Previous Year GPA (scale 0-10)</label>
+                <input type="number" name="gpa_year" id="gpa_year" step="0.01" min="0" max="10" required>
+            </div>
+
+            <div class="form-group">
+                <label for="edu_level">Education Level</label>
+                <select name="edu_level" id="edu_level" required>
+                    <option>Middle school</option>
+                    <option>High school</option>
+                    <option>University</option>
+                    <option>Graduated</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="study_time">Daily Study Time</label>
+                <select name="study_time" id="study_time" required>
+                    <option>&lt; 1 hour</option>
+                    <option>1-2 hours</option>
+                    <option>2-4 hours</option>
+                    <option>&gt; 4 hours</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="break_freq">Study Break Frequency</label>
+                <select name="break_freq" id="break_freq" required>
+                    <option>Almost no breaks</option>
+                    <option>5 min/hour</option>
+                    <option>10-15 min/hour</option>
+                    <option>15+ min/hour</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="prep_method">Exam Preparation Method</label>
+                <select name="prep_method" id="prep_method" required>
+                    <option>No preparation</option>
+                    <option>1 day before</option>
+                    <option>1-2 weeks before</option>
+                    <option>&gt; 2 weeks before</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sleep_time">Daily Sleep Duration</label>
+                <select name="sleep_time" id="sleep_time" required>
+                    <option>&lt; 4 hours</option>
+                    <option>4-6 hours</option>
+                    <option>6-8 hours</option>
+                    <option>&gt; 8 hours</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exercise">Weekly Exercise Frequency</label>
+                <select name="exercise" id="exercise" required>
+                    <option>Never</option>
+                    <option>1-2 times</option>
+                    <option>3-4 times</option>
+                    <option>5+ times</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sm_use">Social Media Use (per hour)</label>
+                <select name="sm_use" id="sm_use" required>
+                    <option>Never</option>
+                    <option>&lt; 15 min/hour</option>
+                    <option>15-30 min/hour</option>
+                    <option>&gt; 30 min/hour</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" required>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tech_use">Use Technology for Study?</label>
+                <select name="tech_use" id="tech_use" required>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="focus">Focus When Studying?</label>
+                <select name="focus" id="focus" required>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="phone_use">Phone Use While Studying?</label>
+                <select name="phone_use" id="phone_use" required>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+           <div class="form-group">
+                <label for="study_method">Study Methods <span style="font-size:0.95em;">(Hold Ctrl/Cmd to select multiple)</span>:</label>
+                <select name="study_method" id="study_method" multiple size="4" required>
+                    <option>Self-study</option>
+                    <option>Group study</option>
+                    <option>Online learning</option>
+                    <option>Tutoring</option>
+                </select>
+           </div>
+
+            <div class="form-group">
+                <label for="best_time">Best Time to Study</label>
+                <select name="best_time" id="best_time" required>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                    <option>Late night</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="diet">Diet</label>
+                <select name="diet" id="diet" required>
+                    <option>No specific diet</option>
+                    <option>Balanced diet</option>
+                    <option>Special diet (Vegan, Keto, etc.)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="env">Study Environment</label>
+                <select name="env" id="env" required>
+                    <option>Silent</option>
+                    <option>Soft background music</option>
+                    <option>Noisy (cafe, crowded library, etc.)</option>
+                </select>
+            </div>
+
+            <button type="submit">Predict GPA</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #87ceeb, #ffffff);
+    color: #333;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0, 128, 255, 0.2);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+    text-align: center;
+    color: #0288d1;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #0277bd;
+}
+
+input[type="number"],
+select {
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #cce4f6;
+    border-radius: 8px;
+    background-color: #f0faff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: #0288d1;
+    outline: none;
+    background-color: #e3f2fd;
+}
+
+button[type="submit"],
+.button {
+    grid-column: 1 / -1;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+button[type="submit"]:hover,
+.button:hover {
+    background-color: #01579b;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #006064;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
