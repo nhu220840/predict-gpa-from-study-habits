@@ -64,7 +64,7 @@ predict-gpa-from-study-habits/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/predict-gpa-from-study-habits.git
+git clone https://github.com/nhu220840/predict-gpa-from-study-habits.git
 cd predict-gpa-from-study-habits
 ```
 
