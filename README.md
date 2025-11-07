@@ -138,7 +138,7 @@ Access the web app at: [http://localhost:5000](http://localhost:5000)
 
 ## License
 
-MIT License © Nhu Do Nguyen Gia
+MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
